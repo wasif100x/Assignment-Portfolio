@@ -9,6 +9,9 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    background: rgb(255, 255, 255);
+}
 main{
     display: flex;
     flex-direction: column;
@@ -126,12 +129,28 @@ font-weight: 800;
 line-height: 27px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 20px;
 }
 .reason-text p{
-    font-size: 10-px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 20px;
+    
+}
+#inspiration{
+    margin: 90px;
+    align-items: center ;
+}
+#inspiration iframe{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+    margin-left:18.5%;
+    padding: 12px;
+    width: 763px;
+height: 390px;
 }
