@@ -345,3 +345,24 @@ border-radius: 5px;
 
 background: rgb(255, 255, 255);
 }
+#footer{
+    margin-top: 60px;
+}
+#footer .final{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1007px;
+height: 71px;
+padding: 22px 106px 22px 106px;
+border-radius: 11px;
+background: rgba(13, 19, 33, 0.03);
+}
+#footer h4{
+font-size: 18px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 135px;
+}
