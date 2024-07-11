@@ -12,7 +12,23 @@
 body {
     background: rgb(255, 255, 255);
 }
+/* created nav */
+nav{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    margin: 20px;
+}
+nav button{
+    width: 161px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 7px;
 
+opacity: 0.8;
+
+}
 main {
     display: flex;
     flex-direction: column;
@@ -292,6 +308,7 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 10px;
 }
+/* help box  */
 #help{
     background-image: url(../assets/handshake.jpg);
     border-radius: 10px;
@@ -345,6 +362,7 @@ border-radius: 5px;
 
 background: rgb(255, 255, 255);
 }
+/* footer part  */
 #footer{
     margin-top: 60px;
 }
