@@ -247,3 +247,48 @@ width: 250px;
 height: 200px;
 margin: 0px 15px;
 }
+/* future target node js react start  from here  */
+.current-text{
+    margin-top: 90px;
+}
+.new-box{
+    display: flex;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+margin: 0px 20px;
+align-items: center;
+padding: 25px;
+margin: 20px;
+}
+.new-box img{
+    margin-right: 30px;
+}
+.new-box h4{
+        
+font-size: 17px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.new-box p{
+   
+font-size: 10px;
+font-weight: 0;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.new-box a{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
