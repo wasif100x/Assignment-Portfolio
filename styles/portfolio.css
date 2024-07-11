@@ -1,98 +1,111 @@
-
 .azeret-mono-font {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-body{
+
+body {
     background: rgb(255, 255, 255);
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 /* creating the banner */
-.banner{
+.banner {
     width: 1350px;
     max-height: 652px;
     margin-top: 20px;
     margin-bottom: 10px;
     background: url(../assets/Hero-bg.png);
-    
+
 }
-.banner-content  {
+
+.banner-content {
     width: 1020px;
-    height:  630px;
+    height: 630px;
     display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 180px;
 }
-.banner-image{
+
+.banner-image {
     align-self: center;
     margin: 30px;
 }
-.btn-content{
-  background-color: rgb(13, 19, 33);
-  border-radius: 8px;
-  color: white;
-  padding: 15px;
-margin-top: 25px;
+
+.btn-content {
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;
 }
-.dark1{
+
+.dark1 {
     color: rgb(13, 19, 33);
 }
-.dark2{
-   color:  rgba(13, 19, 33, 0.7);
+
+.dark2 {
+    color: rgba(13, 19, 33, 0.7);
 }
-.banner-reason{
-font-size: 38px;
-font-weight: 830;
-text-align: center;
-margin: 26px;
-}
-.banner-detail{
-    text-align: center;  
+
+.banner-reason {
+    font-size: 38px;
+    font-weight: 830;
+    text-align: center;
     margin: 26px;
 }
+
+.banner-detail {
+    text-align: center;
+    margin: 26px;
+}
+
 /* creating the why web devolopment reason part */
-#reason{
+#reason {
     display: flex;
     margin: 90px;
-  align-items: center ;
+    align-items: center;
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-flex-direction: row;
+    background: rgba(13, 19, 33, 0.02);
+    flex-direction: row;
 }
-.reason-detail{
- margin-left: 70px;
+
+.reason-detail {
+    margin-left: 70px;
 }
-#reason .reason-detail .reason-text{
+
+#reason .reason-detail .reason-text {
     text-align: center;
- margin-left: 60px;
- margin-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
-.reason-box{
+
+.reason-box {
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    margin: 40px ;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-padding:30px ;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
 }
-.reason-box1{
-    
-border-radius: 16px;
-background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+.reason-box1 {
+
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .reason-box-text h4 {
@@ -103,7 +116,8 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     text-align: left;
     margin-bottom: 20px;
 }
-.reason-box-text p{
+
+.reason-box-text p {
     opacity: 0.7;
     font-size: 10px;
     font-weight: 400;
@@ -112,26 +126,31 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     text-align: left;
     margin-bottom: 20px;
 }
-.reason-box-text button{
+
+.reason-box-text button {
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 8px;
-background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 8px;
+    background-color: white;
 }
-.reason-box-text{
- margin-right: 40%;
+
+.reason-box-text {
+    margin-right: 40%;
 }
+
 /* created some issue with the boxes so i just a new rule for the middle box */
-.reason-text h3{
-font-size: 22px;
-font-weight: 800;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 20px;
+/* my inspiration style starts from here */
+.reason-text h3 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.reason-text p{
+
+.reason-text p {
     font-size: 10px;
     font-weight: 400;
     line-height: 19px;
@@ -139,18 +158,92 @@ margin-bottom: 20px;
     text-align: center;
     opacity: 0.7;
     margin-bottom: 20px;
-    
+
 }
-#inspiration{
+
+#inspiration {
     margin: 90px;
-    align-items: center ;
+    align-items: center;
 }
-#inspiration iframe{
+
+#inspiration iframe {
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-    margin-left:18.5%;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-left: 18.5%;
     padding: 12px;
     width: 763px;
-height: 390px;
+    height: 390px;
+}
+
+/* some same code is repeating because i got confused and made code lines for every classes */
+/* starting the target box meaning the skills that i curently learning */
+/* target box starts from here */
+#target {
+    margin: 200px;
+}
+
+.target-current .current-box {
+    display: flex;
+}
+
+.current-text {
+    text-align: center;
+
+}
+
+.current-box h4 {
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 570;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.current-box p {
+    color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 285;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.current-box a{
+    color: rgb(13, 19, 33);
+    margin-bottom: 16px;
+}
+
+.current-box {
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   align-items: center;
+}
+/* seperated 3 each boxes and somehow make them aligned */
+.box1{
+    border-radius: 10px;
+background: rgba(255, 76, 30, 0.05);
+padding: 30px;
+width: 250px;
+height: 200px;
+margin: 0px 15px;
+}
+.box2{
+    border-radius: 10px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 30px;
+width: 250px;
+height: 200px;
+margin: 0px 15px;
+}
+.box3{
+    border-radius: 10px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 30px;
+width: 250px;
+height: 200px;
+margin: 0px 15px;
 }
